@@ -1,0 +1,22 @@
+# Python cache / build
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual environment
+.venv/
+
+# Generated plots / outputs
+plots/
+parts/
+out.gml
+
+# Keep sample.gml and edges.csv for grading
+# Ignore only auto-generated .gml outputs
+!sample.gml
+!edges.csv
+
+# VS Code settings
+.vscode/
